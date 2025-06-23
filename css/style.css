@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  line-height: 1.5;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin-inline: auto;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.profile-card {
+  background: hsl(0, 0%, 12%);
+  width: 100%;
+  max-width: 350px;
+  padding: 2.25rem 1.75rem;
+  border-radius: 0.75rem;
+}
+
+.profile-image {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.location {
+  color: hsl(75, 94%, 57%);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.bio {
+  color: hsl(0, 0%, 80%);
+  font-weight: 400;
+  font-size: 0.875rem;
+  margin-bottom: 1.5rem;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.list-item {
+  display: block;
+  padding: 0.875rem;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  background: hsl(0, 0%, 20%);
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.list-item:hover {
+  background: hsl(75, 94%, 57%);
+  color: black;
+}
+
+.list-item:focus-visible {
+  background: hsl(75, 94%, 57%);
+  color: black;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
